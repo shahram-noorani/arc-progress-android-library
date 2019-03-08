@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.shahram.noorani.arcprogress.CircleProgress
+            android:id="@+id/circle_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/image_per"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/arrow"
+            android:layout_width="34dp"
+            android:layout_height="34dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

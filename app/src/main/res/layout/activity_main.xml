@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.shahram.noorani.arcprogress.ArcProgress
+        android:id="@+id/arc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:arc_background_color="#FFFFFF"
+        app:arc_empty_color="#57ca87"
+        app:arc_fill_color="#f26c4f"
+        app:arc_max="100"
+        app:arc_min="1"
+        app:arc_progress="50"
+        app:arc_min_max_color="#F00"
+        app:arc_min_max_text_size="15dp"
+        app:arc_progress_text_color="#FFF"
+        app:arc_progress_text_size="22dp"
+
+
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

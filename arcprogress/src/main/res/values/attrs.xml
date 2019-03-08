@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_fill_color" format="color"/>
+        <attr name="arc_empty_color" format="color"/>
+        <attr name="arc_progress_text_color" format="color"/>
+        <attr name="arc_progress_text_size" format="dimension"/>
+        <attr name="arc_min_max_color" format="color"/>
+        <attr name="arc_min_max_text_size" format="dimension"/>
+        <attr name="arc_background_color" format="color"/>
+        <attr name="arc_min" format="integer"/>
+        <attr name="arc_max" format="integer"/>
+        <attr name="arc_image_degree" format="integer"/>
+        <attr name="arc_progress" format="integer"/>
+    </declare-styleable>
+</resources>
