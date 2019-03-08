@@ -10,7 +10,7 @@ easy and very light library used to ArcProgress view
 
 ## How to download
 ### Gradle: 
-add this line to your module build.gradle dependecies block:
+add this line to your module build.gradle repositories block:
     
     allprojects {
 		repositories {
@@ -18,9 +18,13 @@ add this line to your module build.gradle dependecies block:
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-    implementation 'com.github.shahram-noorani:arc-progress-android-library:1.1'
+	
+	
+### Gradle: 
+add this line to your module build.gradle dependecies block:
 
+	 implementation 'com.github.shahram-noorani:arc-progress-android-library:1.0'
+	 
 ## How use this lib
 you can attach ArcProgress view in xml layout like this:
 ```xml
@@ -60,6 +64,7 @@ arcProgress=findViewById(R.id.arc);
         arcProgress.setTextColorCurentProgress(Color.BLACK);
         arcProgress.setTextSizeMinMax(20);
         arcProgress.setTextSizeCurentProgress(40);
+	arcProgress.setTextTypface(typeface);
         arcProgress.setNotSupportAndroidVersionListner(new NotSupportListner() {
             @Override
             public void notSupport() {
